@@ -1,8 +1,5 @@
 # Atomated Pet Feeder using ESP8266
 
----
-
-
 An automatic DIY pet food dispenser using ESP8266 microcontroller.  
 An optional Blynk support is present (but commented out).  
 
@@ -27,9 +24,11 @@ Button D:
 * 1x optional case for the ESP8266
 * ~15x nylon cable ties
 * 1x optional wooden front support
-* 2x optional L shapped metal supports for the wooden front support
-* 2x wood planks for the sctructure
+* 2x optional L shaped metal supports for the wooden front support
+* 2x wood planks for the structure
 * 1x DC power source compatible with L7805 regulator (I used a 9V DC)
+* 2x female jumper cables for servo cable extension
+* 2x shrink tube sections for the servo cable extensions
 * screws for the structure
 
 #### Electronical components
