@@ -1,6 +1,6 @@
-# Atomated Pet Feeder using ESP8266
+# Radio controlled DIY Pet Feeder using ESP8266
 
-An automatic DIY pet food dispenser using ESP8266 microcontroller.  
+A DIY pet food dispenser using ESP8266 microcontroller.  
 An optional Blynk support is present (but commented out).  
 
 As can be seen on the image below, it is controlled using a simple radio controller.  
@@ -34,7 +34,14 @@ Button D:
 #### Electronical components
 *TODO*
 
----
 
 <img src="https://drive.google.com/uc?export=view&id=19s2OR-KXJEJIvmxjpx6WrXahWPca26rq" alt="drawing" width="500"/>
 
+---
+
+### Future improvements
+* Sometimes the food gets stuck inside the tubes, and a little shaking is necessary => change release system from beans cans to a 3D printed rotating part.
+* The reset button must be pressed to start the code after the power is connected => add capacitor connected to RST pin for auto-startup.
+* Add support from Blynk side / add a webserver to control it via wifi.
+* Add an (ultrasonic?) meter to check remotely the food level.
+* It's ugly => paint the damn thing!
